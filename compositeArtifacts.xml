@@ -30,5 +30,7 @@
     <child location='http://dist.codehaus.org/groovy/distributions/greclipse/snapshot/e4.2/' />
     <!-- jboss tools -->
     <child location='http://download.jboss.org/jbosstools/updates/development/indigo/' />
+    <!-- e4.tools -->
+    <child location='http://download.eclipse.org/e4/downloads/drops/I20120620-1100/repository/' />
   </children>
 </repository>
