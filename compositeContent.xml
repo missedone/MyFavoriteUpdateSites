@@ -6,12 +6,18 @@
     <property name='p2.timestamp' value='1243822502499'/>
   </properties>
   <children size='12'>
-	<!-- scm plugins -->
-	<child location='http://download.eclipse.org/egit/updates-nightly'/>
-	<child location='http://download.eclipse.org/technology/m2e/releases'/>
-	<child location='http://download.jboss.org/jbosstools/updates/m2eclipse-wtp/'/>
-	<child location='https://repository.sonatype.org/content/repositories/forge-sites/m2eclipse-tycho/0.7.0/N/0.7.0.201206251302/'/>
-	<child location='http://download.eclipse.org/mylyn/releases/latest'/>
+	<!-- ALM plugins -->
+    <!-- egit -->
+    <child location='http://download.eclipse.org/egit/updates-nightly'/>
+    <!-- m2e -->
+    <child location='http://download.eclipse.org/technology/m2e/releases'/>
+    <child location='https://repository.sonatype.org/content/repositories/forge-sites/m2eclipse-tycho/0.7.0/N/0.7.0.201206251302/'/>
+    <child location='http://download.jboss.org/jbosstools/updates/requirements/m2eclipse/m2e-wtp-indigo/'/>
+    <child location='https://repository.sonatype.org/content/repositories/forge-sites/m2e-extras/0.15.0/N/0.15.0.201206251206/'/>
+    <!-- mylyn -->
+    <child location='http://download.eclipse.org/mylyn/snapshots/weekly'/>
+    <child location='http://download.eclipse.org/mylyn/incubator/3.8'/>
+    <child location='http://download.eclipse.org/r4e/updates/'/>
 	<!-- utils plugins -->
 	<child location='http://beust.com/eclipse'/>
 	<child location='http://findbugs.cs.umd.edu/eclipse'/>
