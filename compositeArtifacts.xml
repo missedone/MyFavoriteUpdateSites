@@ -26,8 +26,10 @@
     <child location='https://sourceforge.net/projects/bluetools/files/navigatorext/updatesite/nax_1.1.2.201201311435/'/>
     <!-- osgi -->
     <child location='http://bndtools-updates.s3.amazonaws.com/' />
-    <!-- groovy eclipse plugin -->
+    <!-- groovy -->
     <child location='http://dist.codehaus.org/groovy/distributions/greclipse/snapshot/e4.2/' />
+	<!-- xtend -->
+	<child location='http://download.eclipse.org/modeling/tmf/xtext/updates/composite/milestones/'/>
     <!-- jboss tools -->
     <child location='http://download.jboss.org/jbosstools/updates/development/indigo/' />
   </children>
