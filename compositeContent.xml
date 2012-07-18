@@ -10,8 +10,8 @@
     <!-- egit -->
     <child location="http://download.eclipse.org/egit/updates-nightly"/>
     <!-- m2e -->
-    <child location="https://repository.sonatype.org/content/repositories/forge-sites/m2e/1.2.0/N/LATEST/"/>
-    <child location="http://download.jboss.org/jbosstools/updates/requirements/m2eclipse/m2e-wtp-juno/"/>
+    <child location="http://download.eclipse.org/technology/m2e/releases/"/>
+    <child location="http://download.jboss.org/jbosstools/builds/staging/m2e-wtp-juno/all/"/>
     <child location="https://repository.sonatype.org/content/repositories/forge-sites/m2e-extras/0.15.0/N/0.15.0.201206251206/"/>
     <child location="https://repository.sonatype.org/content/repositories/forge-sites/m2eclipse-tycho/0.6.0/N/0.6.0.201205210032/"/>
     <!-- mylyn -->
