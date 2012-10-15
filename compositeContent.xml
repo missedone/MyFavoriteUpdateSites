@@ -9,11 +9,15 @@
 	<!-- ALM plugins -->
     <!-- egit -->
     <child location="http://download.eclipse.org/egit/updates-nightly"/>
+	<child location="http://download.eclipse.org/technology/subversive/1.0/update-site/"/>
+	<child location="http://community.polarion.com/projects/subversive/download/eclipse/3.0/update-site/"/>
+	<child location="http://community.polarion.com/projects/subversive/download/integrations/update-site/"/>
     <!-- m2e -->
-    <child location="https://repository.sonatype.org/content/repositories/forge-sites/m2e/1.2.0/N/LATEST/"/>
-    <child location="http://download.jboss.org/jbosstools/builds/staging/m2e-wtp-juno/all/"/>
-    <child location="https://repository.sonatype.org/content/repositories/forge-sites/m2e-extras/0.15.0/N/0.15.0.201206251206/"/>
+    <child location="http://download.eclipse.org/technology/m2e/releases"/>
+    <child location="http://download.eclipse.org/m2e-wtp/releases/"/>
+    <!--
     <child location="https://repository.sonatype.org/content/repositories/forge-sites/m2eclipse-tycho/0.6.0/N/0.6.0.201205210032/"/>
+    -->
     <!-- mylyn -->
     <child location="http://download.eclipse.org/mylyn/snapshots/weekly"/>
     <child location="http://download.eclipse.org/mylyn/incubator/3.8"/>
@@ -30,8 +34,9 @@
 	<child location="http://dist.codehaus.org/groovy/distributions/greclipse/snapshot/e4.2/"/>
 	<!-- dltk for ruby -->
 	<child location="http://download.eclipse.org/technology/dltk/updates-dev/4.0-nightly/"/>
-    <!-- jboss tools -->
+    <!-- jboss tools 
     <child location="http://download.jboss.org/jbosstools/builds/nightly/trunk/latest/all/repo/"/>
+	-->
     <!-- e4.tools -->
     <child location="http://download.eclipse.org/e4/downloads/drops/I20120620-1100/repository/"/>
 	<!-- misc -->
@@ -41,7 +46,7 @@
 	<child location="https://raw.github.com/jeeeyul/eclipse-themes/master/net.jeeeyul.eclipse.themes.updatesite/"/>
 	<!-- grep console -->
 	<child location="http://eclipse.schedenig.name"/>
-	<!-- java packager viewer filter -->
-	<child location="http://www.vogella.com/updatesite/jdt"/>
+	<!-- jee --> 
+	<child location="http://download.eclipse.org/releases/maintenance"/>
   </children>
 </repository>
