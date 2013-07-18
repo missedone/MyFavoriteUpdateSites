@@ -30,6 +30,7 @@
     <child location="http://findbugs.cs.umd.edu/eclipse"/>
     <child location="http://andrei.gmxhome.de/eclipse/"/>
     <child location="http://propedit.sourceforge.jp/eclipse/updates/"/>
+    <child location="http://sourceforge.net/projects/shelled/files/shelled/update/"/>
     <child location="https://sourceforge.net/projects/bluetools/files/navigatorext/updatesite/nax_1.1.2.201201311435/"/>
     <!-- proxy switcher -->
     <child location="http://www.jspresso.org/external/updates-snapshot/e37/sjsplug"/>
