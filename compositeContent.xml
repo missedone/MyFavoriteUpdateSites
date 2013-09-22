@@ -42,7 +42,7 @@
     <!-- dltk for ruby -->
     <child location="http://download.eclipse.org/technology/dltk/updates-dev/4.0-nightly/"/>
     <!-- jboss tools -->
-    <child location="http://download.jboss.org/jbosstools/updates/nightly/core/trunk/"/>
+    <child location="http://download.jboss.org/jbosstools/updates/stable/kepler/"/>
     <!-- e4.tools -->
     <child location="http://download.eclipse.org/e4/downloads/drops/I20120620-1100/repository/"/>
     <!-- misc -->
