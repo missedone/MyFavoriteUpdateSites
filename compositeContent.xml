@@ -48,8 +48,9 @@
     <!-- misc -->
     <child location="http://eclipse-color-theme.github.com/update"/>
     <child location="http://codeandme.googlecode.com/svn/trunk/at.pontesegger.updatesite/p2/"/>
-    <!-- google themes for e4 -->
+    <!-- themes -->
     <child location="https://raw.github.com/jeeeyul/eclipse-themes/master/net.jeeeyul.eclipse.themes.updatesite/"/>
+    <child location="https://raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite" />
     <!-- grep console -->
     <child location="http://eclipse.schedenig.name"/>
     <!-- jee --> 
