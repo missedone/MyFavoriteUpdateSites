@@ -32,26 +32,20 @@
     <child location="http://propedit.sourceforge.jp/eclipse/updates/"/>
     <child location="http://sourceforge.net/projects/shelled/files/shelled/update/"/>
     <child location="https://sourceforge.net/projects/bluetools/files/navigatorext/updatesite/nax_1.1.3.201308140959/"/>
-	<!-- osgi -->
-	<child location="http://bndtools-updates.s3.amazonaws.com/"/>
+    <!-- grep console -->
+    <child location="http://eclipse.schedenig.name"/>
+    <!-- osgi -->
+    <child location="http://bndtools-updates.s3.amazonaws.com/"/>
     <child location="http://download.eclipse.org/virgo/milestone/tooling"/>
-    <!-- groovy eclipse plugin -->
-	<child location="http://dist.springsource.org/release/GRECLIPSE/e4.3/"/>
-	<!-- dltk for ruby -->
-	<child location="http://download.eclipse.org/technology/dltk/updates/"/>
     <!-- jboss tools -->
     <child location="http://download.jboss.org/jbosstools/updates/stable/kepler/"/>
     <!-- e4.tools -->
     <child location="http://download.eclipse.org/e4/downloads/drops/I20120620-1100/repository/"/>
-	<!-- misc -->
-	<child location="http://eclipse-color-theme.github.com/update"/>
-	<child location="http://codeandme.googlecode.com/svn/trunk/at.pontesegger.updatesite/p2/"/>
-	<!-- themes -->
-	<child location="https://raw.github.com/jeeeyul/eclipse-themes/master/net.jeeeyul.eclipse.themes.updatesite/"/>
+    <!-- misc -->
+    <child location="http://eclipse-color-theme.github.com/update"/>
+    <child location="http://codeandme.googlecode.com/svn/trunk/at.pontesegger.updatesite/p2/"/>
+    <!-- themes -->
+    <child location="https://raw.github.com/jeeeyul/eclipse-themes/master/net.jeeeyul.eclipse.themes.updatesite/"/>
     <child location="https://raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite" />
-	<!-- grep console -->
-	<child location="http://eclipse.schedenig.name"/>
-	<!-- jee --> 
-	<child location="http://download.eclipse.org/releases/maintenance"/>
   </children>
 </repository>
