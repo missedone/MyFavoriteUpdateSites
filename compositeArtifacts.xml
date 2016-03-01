@@ -1,51 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?compositeArtifactRepository version="1.0.0"?>
-<repository name="My favorite update sites"
-    type="org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository" version="1.0.0">
-  <properties size="1">
-    <property name="p2.timestamp" value="1243822502440"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<?compositeArtifactRepository version='1.0.0'?>
+<repository name='My favorite update sites'
+    type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository' version='1.0.0'>
+  <properties size='1'>
+    <property name='p2.timestamp' value='1243822502440'/>
   </properties>
-  <children size="12">
+  <children size='12'>
     <!-- ALM plugins -->
     <!-- egit -->
-    <child location="http://download.eclipse.org/egit/updates-nightly"/>
-    <child location="http://download.eclipse.org/technology/subversive/1.0/update-site/"/>
-    <child location="http://community.polarion.com/projects/subversive/download/eclipse/3.0/update-site/"/>
-    <child location="http://community.polarion.com/projects/subversive/download/integrations/update-site/"/>
+    <child location='http://download.eclipse.org/egit/updates-nightly'/>
     <!-- m2e -->
-    <child location="http://download.eclipse.org/technology/m2e/milestones/1.5"/>
-    <child location="http://download.eclipse.org/m2e-wtp/snapshots/kepler"/>
-    <child location="http://nexus.tesla.io:8081/nexus/content/sites/m2e.extras/m2e/1.5.0/N/LATEST/"/>
-    <!--
-    <child location="http://download.jboss.org/jbosstools/updates/requirements/m2eclipse/20130507-1357_1.4_1.0/"/>
-    -->
+    <child location='http://download.eclipse.org/technology/m2e/releases'/>
+    <child location='https://repository.sonatype.org/content/repositories/forge-sites/m2eclipse-tycho/0.7.0/N/0.7.0.201206251302/'/>
+    <child location='http://download.jboss.org/jbosstools/updates/requirements/m2eclipse/m2e-wtp-indigo/'/>
+    <child location='https://repository.sonatype.org/content/repositories/forge-sites/m2e-extras/0.15.0/N/0.15.0.201206251206/'/>
     <!-- mylyn -->
-    <child location="http://download.eclipse.org/mylyn/snapshots/weekly"/>
-    <!--
-    <child location="http://download.eclipse.org/mylyn/incubator/3.11"/>
-    <child location="http://download.eclipse.org/r4e/updates/"/>
-    -->
+    <child location='http://download.eclipse.org/mylyn/snapshots/weekly'/>
+    <child location='http://download.eclipse.org/mylyn/incubator/3.8'/>
+    <child location='http://download.eclipse.org/r4e/updates/'/>
     <!-- utils plugins -->
-    <child location="http://beust.com/eclipse"/>
-    <child location="http://findbugs.cs.umd.edu/eclipse"/>
-    <child location="http://andrei.gmxhome.de/eclipse/"/>
-    <child location="http://propedit.sourceforge.jp/eclipse/updates/"/>
-    <child location="http://sourceforge.net/projects/shelled/files/shelled/update/"/>
-    <child location="https://sourceforge.net/projects/bluetools/files/navigatorext/updatesite/nax_1.1.3.201308140959/"/>
-    <!-- grep console -->
-    <child location="http://eclipse.schedenig.name"/>
+    <child location='http://beust.com/eclipse'/>
+    <child location='http://findbugs.cs.umd.edu/eclipse'/>
+    <child location='http://andrei.gmxhome.de/eclipse/'/>
+    <child location='http://propedit.sourceforge.jp/eclipse/updates/'/>
+    <child location='https://sourceforge.net/projects/bluetools/files/navigatorext/updatesite/nax_1.1.2.201201311435/'/>
     <!-- osgi -->
-    <child location="http://bndtools-updates.s3.amazonaws.com/"/>
-    <child location="http://download.eclipse.org/virgo/milestone/tooling"/>
+    <child location='http://bndtools-updates.s3.amazonaws.com/' />
+    <!-- groovy eclipse plugin -->
+    <child location='http://dist.codehaus.org/groovy/distributions/greclipse/snapshot/e4.2/' />
     <!-- jboss tools -->
-    <child location="http://download.jboss.org/jbosstools/updates/stable/kepler/"/>
+    <child location='http://download.jboss.org/jbosstools/updates/development/indigo/' />
     <!-- e4.tools -->
-    <child location="http://download.eclipse.org/e4/downloads/drops/I20120620-1100/repository/"/>
-    <!-- misc -->
-    <child location="http://eclipse-color-theme.github.com/update"/>
-    <child location="http://codeandme.googlecode.com/svn/trunk/at.pontesegger.updatesite/p2/"/>
-    <!-- themes -->
-    <child location="https://raw.github.com/jeeeyul/eclipse-themes/master/net.jeeeyul.eclipse.themes.updatesite/"/>
-    <child location="https://raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite" />
+    <child location='http://download.eclipse.org/e4/downloads/drops/I20120620-1100/repository/' />
   </children>
 </repository>
