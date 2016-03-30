@@ -13,7 +13,8 @@
     <child location='http://andrei.gmxhome.de/eclipse/'/>
     <child location='http://propedit.sourceforge.jp/eclipse/updates/'/>\
     -->
-    <child location='https://dl.bintray.com/testng-team/testng-eclipse/'/>
+    <child location='http://testng.org/eclipse-beta'/>
+    <child location='https://github.com/missedone/yatb/raw/master/dist'/>
 
     <!-- for osx only -->
     <child location='https://resheim.net/p2/eclipse-launcher/'/>
