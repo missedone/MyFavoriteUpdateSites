@@ -15,6 +15,9 @@
     -->
     <child location='http://testng.org/eclipse-beta'/>
     <child location='https://github.com/missedone/yatb/raw/master/dist'/>
+    <child location='http://www.nodeclipse.org/updates/markdown/'/>
+
+    <child location='http://download.eclipse.org/buildship/updates/e45/milestones/2.x/' />
 
     <!-- for osx only -->
     <child location='https://resheim.net/p2/eclipse-launcher/'/>
