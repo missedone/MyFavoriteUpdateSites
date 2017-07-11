@@ -23,6 +23,6 @@
     <child location='https://resheim.net/p2/eclipse-launcher/'/>
 
     <!-- for windows only -->
-    <child location='https://sourceforge.net/projects/bluetools/files/navigatorext/updatesite/nax_1.1.2.201201311435/'/>
+    <child location='https://raw.github.com/missedone/navigatorext/v1.1.3/site'/>
   </children>
 </repository>
