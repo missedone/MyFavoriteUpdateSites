@@ -13,16 +13,17 @@
     <child location='http://andrei.gmxhome.de/eclipse/'/>
     <child location='http://propedit.sourceforge.jp/eclipse/updates/'/>\
     -->
-    <child location='http://testng.org/eclipse-beta'/>
+    <child location='http://dl.bintray.com/testng-team/testng-eclipse-release/'/>
     <child location='https://github.com/missedone/yatb/raw/master/dist'/>
     <child location='http://www.nodeclipse.org/updates/markdown/'/>
 
-    <child location='http://download.eclipse.org/buildship/updates/e45/milestones/2.x/' />
+    <child location='http://download.eclipse.org/buildship/updates/e47/releases/2.x' />
 
     <!-- for osx only -->
     <child location='https://resheim.net/p2/eclipse-launcher/'/>
 
-    <!-- for windows only -->
+    <!-- for windows only 
     <child location='https://raw.github.com/missedone/navigatorext/v1.1.3/site'/>
+    -->
   </children>
 </repository>
